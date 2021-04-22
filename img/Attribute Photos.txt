@@ -1,0 +1,9 @@
+-- Camera
+Photo by <a href="https://unsplash.com/@a_hutchings5894?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andrew Hutchings</a> on <a href="https://unsplash.com/s/photos/camera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+-- Console
+Photo by <a href="https://unsplash.com/@chilinik?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nikita Kostrykin</a> on <a href="https://unsplash.com/s/photos/console?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+-- Laptop
+Photo by <a href="https://unsplash.com/@clemhlrdt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clément Hélardot</a> on <a href="https://unsplash.com/s/photos/programming?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
