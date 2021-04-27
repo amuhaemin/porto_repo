@@ -10,3 +10,12 @@
 section {
   padding-top: 4rem;
 }
+
+.btn {
+  background-color: #4e0c8f;
+  color: white;
+}
+.btn:hover {
+  background-color: #6d19c0;
+  color: white;
+}
