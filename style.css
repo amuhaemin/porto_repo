@@ -8,7 +8,7 @@
 }
 
 section {
-  padding-top: 4rem;
+  padding-top: 2rem;
 }
 
 .btn {
@@ -18,4 +18,8 @@ section {
 .btn:hover {
   background-color: #6d19c0;
   color: white;
+}
+
+#usc {
+  padding-bottom: 90px;
 }
