@@ -18,7 +18,23 @@
   </head>
   <body id="home">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #4e0c8f">
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- <nav id="navbar" class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #4e0c8f">
       <div class="container">
         <a class="navbar-brand" href="#">Ahmad Muhaemin</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,11 +60,11 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> -->
     <!-- End Navbar -->
 
     <!-- Jumbotron -->
-    <section class="jumbotron text-center">
+    <section id="welcome-section" class="jumbotron text-center">
       <img src="img/profile.jpg" alt="Photo of Me" width="200;" class="rounded-circle img-thumbnail" />
       <h1 class="display-4">Ahmad Muhaemin</h1>
       <p class="lead">Programmer | Human Lv 25</p>
@@ -74,16 +90,16 @@
           </div>
         </div>
         <div class="row justify-content-center text-start">
-          <div class="col-md-4 fs-5 me-5">
+          <div class="col-md-4 fs-5 mb-4">
             <h4>Who am I?</h4>
             <p>Hello, I'm Ahmad Muhaemin; a Desktop App Programmer and Web Programmer wanna be based in Jakarta, Indonesia. I've spent almost 3 years developping an ERP application for Industrial client.</p>
           </div>
-          <div class="col-md-4 fs-5">
+          <div class="col-md-4 fs-5 mb-4">
             <h4>Where I'm from?</h4>
             <p>Building a strong logic in Departement of Math from Universitas Padjadjaran, Bandung. With strong interest in tech, I am reqruited by tech company who mainly help client building an ERP app for their daily activity.</p>
           </div>
         </div>
-        <div class="row justify-content-center text-start mt-5">
+        <div class="row justify-content-center text-start">
           <div class="col-md-4 fs-5">
             <h4>What I do?</h4>
             <p>
@@ -113,31 +129,51 @@
         </div>
         <div class="row">
           <div class="col-md-4 mb-4">
+            <div class="card" style="width: 18rem">
+              <a href="https://codepen.io/amuhaemin/full/XWMRXgG">
+                <img src="img/Projects/tribute.PNG" class="card-img-top project-tile" alt="Project 1" />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Tribute Page</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card" style="width: 18rem">
+              <a href="http://nakasimofoundation.org" class="text-center">
+                <img src="img/Projects/nakasimo logo.png" style="width: 95%; height: auto" class="card-img-top project-tile" alt="Project 2" />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Nakasimo Web Page</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card" style="width: 18rem">
+              <a href="https://codepen.io/amuhaemin/full/XWMRXgG">
+                <img src="img/Projects/tribute.PNG" class="card-img-top project-tile" alt="Project 1" />
+                <div class="card-body">
+                  <h5 class="card-title text-center">Tribute Page</h5>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row" id="card-project">
+          <div class="col-md-4 mb-4">
             <div class="card">
-              <img src="img/Projects/USC.png" class="card-img-top shadow-sm" id="usc" alt="Projects 1" />
-              <div class="card-body">
-                <p class="card-text">
-                  This Porjects is for United Steel Center in Indonesia, used for their daily system cycle from Purchasing, Inventory, Production, to Accounting. Using VB.Net for the core program language, Microsoft SQL Server for database,
-                  we also using ASP.Net as API Framework used for Handy Terminal (HT) in several production process. It was long and challanging projects as it is my first professional project.
-                </p>
-              </div>
+              <a href="http://nakasimofoundation.org">
+                <img src="img/Projects/nakasimo logo.png" class="card-img-top shadow-sm project-tile" alt="Projects 2" />
+                <div class="card-body">
+                  <p class="card-text text-center">Nakasimo Foundation Page</p>
+                </div>
+              </a>
             </div>
           </div>
           <div class="col-md-4 mb-4">
             <div class="card">
-              <img src="img/Projects/nakasimo logo.png" class="card-img-top shadow-sm" alt="Projects 2" />
-              <div class="card-body">
-                <p class="card-text">
-                  As a new web programmer, this project is a Wordpress based webpages that I have poured some of my heart into the UI/UX. As Nakasimo Foundation have given me the opportunity to broaden my skills, I am learning about web
-                  developping through this projects.
-                </p>
-                <p class="card-text">See this web on <a href="http://nakasimofoundation.org">Nakasimo Foundation</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-4">
-            <div class="card">
-              <img src="img/Projects/laptop.jpg" class="card-img-top" alt="Projects 2" />
+              <img src="img/Projects/laptop.jpg" class="card-img-top shadow-sm project-tile" alt="Projects 2" />
               <div class="card-body">
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 <p class="card-text">
@@ -187,17 +223,23 @@
             </form>
           </div>
           <div class="col align-self-center text-center mb-5">
-            <a class="text-dark text-decoration-none" href="https://www.instagram.com/amuhaemin" target="_blank">
+            <a id="profile-link" class="text-dark text-decoration-none" href="https://www.instagram.com/amuhaemin" target="_blank">
               <button class="btn">
                 <i class="bi bi-instagram" style="font-size: 20px"></i>
               </button>
             </a>
 
-            <!-- <a class="text-dark text-decoration-none" href="https://www.linkedin.com/in/amuhaemin/"> -->
-            <button class="btn" type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="My Instagram!">
-              <i class="bi bi-linkedin" style="font-size: 20px"></i>
-            </button>
-            <!-- </a> -->
+            <a id="profile-link" class="text-dark text-decoration-none" href="https://www.linkedin.com/in/amuhaemin/" target="_blank">
+              <button class="btn" type="button">
+                <i class="bi bi-linkedin" style="font-size: 20px"></i>
+              </button>
+            </a>
+
+            <a id="profile-link" class="text-dark text-decoration-none" href="https://github.com/amuhaemin" target="_blank">
+              <button class="btn" type="button">
+                <i class="bi bi-github" style="font-size: 20px"></i>
+              </button>
+            </a>
           </div>
         </div>
       </div>
@@ -219,5 +261,6 @@
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   </body>
 </html>
